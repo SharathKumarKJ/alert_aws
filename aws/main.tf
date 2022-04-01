@@ -12,13 +12,13 @@ provider "aws" {
 }
 
 module "compute" {
-  source = "./modules/compute"
+  source = "./compute"
 }
 
 module "network" {
-  source = "./modules/network"
+  source = "./network"
 }
-\
+
 module "storage" {
-  source = "./modules/storage"
+  source = "./storage"
 }
